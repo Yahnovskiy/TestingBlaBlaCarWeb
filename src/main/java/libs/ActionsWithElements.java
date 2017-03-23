@@ -14,13 +14,14 @@ public class ActionsWithElements{
     private WebDriver driver;
     private Logger logger;
     private WebDriverWait webDriverWait10 ;
-  //  private WebDriverWait webDriverWait20 ;
+    private WebDriverWait webDriverWait15;
+    //  private WebDriverWait webDriverWait20 ;
 
     public ActionsWithElements(WebDriver driver) {
         this.driver = driver;
         logger = Logger.getLogger(getClass());
         webDriverWait10 = new WebDriverWait(driver, 10);
-      //  webDriverWait20 = new WebDriverWait(driver,20);
+        webDriverWait15 = new WebDriverWait(driver,15);
     }
 
     public void enterText(String xpathLocator, String text) {
@@ -59,7 +60,7 @@ public class ActionsWithElements{
     public boolean isElementPresent(String xpathLocator) {
         try {
             WebElement webElement = driver.findElement(By.xpath(xpathLocator));
-            return webElement.isDisplayed() && webElement.isEnabled();
+            return webElement.isDisplayed(); //&& webElement.isEnabled();
         } catch (Exception e) {
             return false;
         }
@@ -126,6 +127,17 @@ public class ActionsWithElements{
         Assert.fail("Can not work with element");
     }
 
+    }
+
+    public String getTextFromElement(String xpathLocator) {
+        String textFromElement = "";
+        try {
+            textFromElement = webDriverWait15.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathLocator))).getText();
+        } catch (Exception e) {
+            logger.error("Can not work with element");
+            Assert.fail("Can not work with element");
+        }
+        return textFromElement;
     }
 
 

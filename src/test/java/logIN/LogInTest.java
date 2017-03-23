@@ -14,7 +14,7 @@ public class LogInTest extends ParentTest{
     }
 
     @Test
-    public void validLogIn(){
+    public void invalidLogIn(){
         loginPage.openLoginPage();
         loginPage.clickToShownPopupLoginWindow();
         loginPage.enterLogin("Login");
@@ -23,4 +23,14 @@ public class LogInTest extends ParentTest{
         loginPage.checkTitleWrongMailMessage("Невірна електронна адреса або пароль. Спробуйте ще раз.");
       //checkAC("Title not expected", loginPage.checkTitleWrongMailMessage(), "   Невірна електронна адреса або пароль. Спробуйте ще раз. ");
     }
+
+    @Test
+    public void userLogIn_oneStep(){
+        loginPage.loginUser("bigbubble.e@bigmir.net", "bigbubble");
+        //loginPage.checkIsUserLoggedIn();
+        checkAC("Title is not present", loginPage.checkIsUserLoggedIn(),true);
+
+
+    }
+
 }

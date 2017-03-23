@@ -22,6 +22,9 @@ public class LoginPage extends ParentPage {
     @FindBy (xpath = ".//*[@class='u-overflowHidden']")
     WebElement WrongMailMessage;
 
+    @FindBy (xpath = ".//span[@class = 'Header-navigationAvatar']")
+    WebElement LoggedInnavigationAvatar;
+
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -63,10 +66,12 @@ public class LoginPage extends ParentPage {
 
     public void loginUser(String login, String pass){
         openLoginPage();
+        clickToShownPopupLoginWindow();
         //checkTitle("Account of spare:Авторизация");
         enterLogin(login);
         enterPass(pass);
         clickButtonLogin();
+        checkIsUserLoggedIn();
 
     }
 
@@ -77,4 +82,9 @@ public void checkTitleWrongMailMessage(String expectedText) {
 
 }
 
+    public boolean checkIsUserLoggedIn() {
+        return actionsWithElements.isElementPresent(LoggedInnavigationAvatar);
+
+
+    }
 }

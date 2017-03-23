@@ -47,9 +47,9 @@ public class ParentPage {
     }
 
 
-//    public String getTitle() {
-//        return driver.getTitle();
-//    }
+    public String getTitle() {
+       return driver.getTitle();
+    }
 
     public String getText() {
         return driver.findElement(By.xpath(".//*[@class='u-overflowHidden']")).getText();
