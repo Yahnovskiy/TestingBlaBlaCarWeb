@@ -1,0 +1,7 @@
+2017-23-03 23:52:49   INFO [logIN.LogInTest] : Chrome will be started
+2017-23-03 23:52:53   INFO [logIN.LogInTest] :  Chrome is started
+2017-23-03 23:52:55   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-23-03 23:52:56   INFO [libs.ActionsWithElements] : Element was clicked
+2017-23-03 23:52:56   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-23-03 23:52:57   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-23-03 23:52:57   INFO [libs.ActionsWithElements] : Element was clicked
