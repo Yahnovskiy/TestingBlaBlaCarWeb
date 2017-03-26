@@ -5,3 +5,222 @@
 2017-23-03 23:52:56   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
 2017-23-03 23:52:57   INFO [libs.ActionsWithElements] : bigbubble was inputed
 2017-23-03 23:52:57   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 21:57:38   INFO [logIN.LogInTest] : FireFox will be started
+2017-26-03 21:57:51   INFO [logIN.LogInTest] :  FireFox is started
+2017-26-03 21:57:56   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 21:57:57   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 21:57:57   INFO [Pages.LoginPage] : Login was entered in input 
+2017-26-03 21:57:57   INFO [libs.ActionsWithElements] : Pass was inputed
+2017-26-03 21:57:58   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 21:57:59   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\LogInTest\invalidLogIn[0]-fireFox.jpg
+2017-26-03 21:58:11   INFO [logIN.LogInTest] : FireFox will be started
+2017-26-03 21:58:17   INFO [logIN.LogInTest] :  FireFox is started
+2017-26-03 21:58:20   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 21:58:21   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 21:58:21   INFO [Pages.LoginPage] : Login was entered in input 
+2017-26-03 21:58:21   INFO [libs.ActionsWithElements] : Pass was inputed
+2017-26-03 21:58:22   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 21:58:23   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\LogInTest\invalidLogIn[0]-fireFox.jpg
+2017-26-03 22:21:32   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:21:43   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:21:45   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:21:46   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:21:46   INFO [Pages.LoginPage] : Student was entered in input 
+2017-26-03 22:21:46   INFO [libs.ActionsWithElements] : 906090 was inputed
+2017-26-03 22:21:47   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:21:48   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\LogInTest\invalidLogIn[0]-chrome.jpg
+2017-26-03 22:21:50   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:21:54   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:21:57   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:21:57   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:21:58   INFO [Pages.LoginPage] : tudent was entered in input 
+2017-26-03 22:21:58   INFO [libs.ActionsWithElements] : 909090 was inputed
+2017-26-03 22:21:58   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:22:00   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\LogInTest\invalidLogIn[1]-chrome.jpg
+2017-26-03 22:22:01   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:22:03   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:22:06   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:22:06   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:22:07   INFO [Pages.LoginPage] : Student123 was entered in input 
+2017-26-03 22:22:07   INFO [libs.ActionsWithElements] : 909090 was inputed
+2017-26-03 22:22:07   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:22:09   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\LogInTest\invalidLogIn[2]-chrome.jpg
+2017-26-03 22:22:10   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:22:12   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:22:14   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:22:15   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:22:15   INFO [Pages.LoginPage] : dfsjlfsk was entered in input 
+2017-26-03 22:22:15   INFO [libs.ActionsWithElements] : 650 was inputed
+2017-26-03 22:22:16   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:22:17   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\LogInTest\invalidLogIn[3]-chrome.jpg
+2017-26-03 22:22:18   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:22:20   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:22:23   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:22:23   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:22:24   INFO [Pages.LoginPage] : студент was entered in input 
+2017-26-03 22:22:24   INFO [libs.ActionsWithElements] : 9090+ was inputed
+2017-26-03 22:22:24   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:22:26   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\LogInTest\invalidLogIn[4]-chrome.jpg
+2017-26-03 22:40:16   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:40:19   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:40:22   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:40:22   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:23   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:40:23   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:40:23   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:27   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:40:29   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:40:32   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:40:32   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:33   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:40:33   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:40:33   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:37   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:40:39   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:40:41   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:40:42   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:42   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:40:43   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:40:43   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:46   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:40:49   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:40:51   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:40:52   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:52   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:40:52   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:40:53   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:40:57   INFO [logIN.LogInTest] : Chrome will be started
+2017-26-03 22:40:59   INFO [logIN.LogInTest] :  Chrome is started
+2017-26-03 22:41:01   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:41:02   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:41:02   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:41:02   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:41:03   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:02   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:43:06   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:43:09   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:43:09   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:10   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:43:10   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:43:10   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:14   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:43:16   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:43:19   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:43:20   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:20   INFO [Pages.LoginPage] : Student was entered in input 
+2017-26-03 22:43:20   INFO [libs.ActionsWithElements] : 906090 was inputed
+2017-26-03 22:43:21   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:23   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\invalidLogIn[0]-chrome.jpg
+2017-26-03 22:43:23   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:43:26   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:43:28   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:43:29   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:29   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:43:29   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:43:30   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:33   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:43:35   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:43:38   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:43:38   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:39   INFO [Pages.LoginPage] : tudent was entered in input 
+2017-26-03 22:43:39   INFO [libs.ActionsWithElements] : 909090 was inputed
+2017-26-03 22:43:39   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:41   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\invalidLogIn[1]-chrome.jpg
+2017-26-03 22:43:42   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:43:44   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:43:47   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:43:47   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:48   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:43:48   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:43:48   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:51   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:43:54   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:43:56   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:43:57   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:57   INFO [Pages.LoginPage] : Student123 was entered in input 
+2017-26-03 22:43:57   INFO [libs.ActionsWithElements] : 909090 was inputed
+2017-26-03 22:43:57   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:43:59   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\invalidLogIn[2]-chrome.jpg
+2017-26-03 22:44:00   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:44:02   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:44:05   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:44:05   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:06   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:44:06   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:44:06   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:09   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:44:12   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:44:14   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:44:15   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:15   INFO [Pages.LoginPage] : dfsjlfsk was entered in input 
+2017-26-03 22:44:15   INFO [libs.ActionsWithElements] : 650 was inputed
+2017-26-03 22:44:15   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:17   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\invalidLogIn[3]-chrome.jpg
+2017-26-03 22:44:18   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:44:20   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:44:23   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:44:24   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:24   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 22:44:24   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 22:44:25   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:28   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 22:44:30   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 22:44:33   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 22:44:33   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:34   INFO [Pages.LoginPage] : студент was entered in input 
+2017-26-03 22:44:34   INFO [libs.ActionsWithElements] : 9090+ was inputed
+2017-26-03 22:44:34   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 22:44:36   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\invalidLogIn[4]-chrome.jpg
+2017-26-03 23:11:46   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 23:11:52   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 23:11:55   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 23:11:56   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:11:56   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 23:11:57   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 23:11:57   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:12:07  ERROR [libs.ActionsWithElements] : Can not work with element
+2017-26-03 23:12:07   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\invalidLogIn[0]-chrome.jpg
+2017-26-03 23:13:04   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 23:13:08   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 23:13:11   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 23:13:12   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:13:12   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 23:13:12   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 23:13:13   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:14:50   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 23:14:54   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 23:14:57   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 23:14:57   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:14:58   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 23:14:58   INFO [libs.ActionsWithElements] : bbigbubble was inputed
+2017-26-03 23:14:58   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:15:19   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\userLogIn_oneStep[0]-chrome.jpg
+2017-26-03 23:15:19  ERROR [logIN.IncorrectLogin] : AC failed: Title is not present
+2017-26-03 23:15:19   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logIN\IncorrectLogin\userLogIn_oneStep[0]-chrome.jpg
+2017-26-03 23:33:43   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 23:33:50   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 23:33:53   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 23:33:54   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:33:54   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 23:33:54   INFO [libs.ActionsWithElements] : bbigbubble was inputed
+2017-26-03 23:33:55   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:35:32   INFO [logIN.LogInTest] : FireFox will be started
+2017-26-03 23:35:40   INFO [logIN.LogInTest] :  FireFox is started
+2017-26-03 23:35:43   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 23:35:44   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:35:44   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 23:35:44   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 23:35:45   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:37:44   INFO [logIN.LogInTest] : FireFox will be started
+2017-26-03 23:42:42   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 23:42:45   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 23:42:48   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 23:42:49   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:42:49   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 23:43:10   INFO [logIN.IncorrectLogin] : Chrome will be started
+2017-26-03 23:43:13   INFO [logIN.IncorrectLogin] :  Chrome is started
+2017-26-03 23:43:16   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-26-03 23:43:17   INFO [libs.ActionsWithElements] : Element was clicked
+2017-26-03 23:43:17   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-26-03 23:43:17   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-26-03 23:43:18   INFO [libs.ActionsWithElements] : Element was clicked
