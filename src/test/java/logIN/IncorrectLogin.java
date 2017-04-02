@@ -32,31 +32,25 @@ import java.util.Collection;
         @Parameterized.Parameters
         public static Collection testData() throws IOException {
             InputStream spreadsheet = new FileInputStream(ConfigData.getCfgValue("DATA_FILE_PATH") + "testDataSuit.xls");
-            return new SpreadsheetData(spreadsheet, "ValidLogOn").getData();      //2й параметр - указываем название листа в екселе
+            return new SpreadsheetData(spreadsheet, "InvalidLogOn").getData();      //2й параметр - указываем название листа в екселе
         }
 
-//    public LogInTest(String browser) {
-//        super(browser);
-//    }
 
         @Test
         public void invalidLogIn(){
             loginPage.openLoginPage();
             loginPage.clickToShownPopupLoginWindow();
-            //  loginPage.enterLogin("Login");
-            loginPage.enterLogin(login);
-            //  loginPage.enterPass("Pass");
+           loginPage.enterLogin(login);
             loginPage.enterPass(pass);
             loginPage.clickButtonLogin();
-            loginPage.checkTitleWrongMailMessage("Невірна електронна адреса або пароль. Спробуйте ще раз.");
-            //checkAC("Title not expected", loginPage.checkTitleWrongMailMessage(), "   Невірна електронна адреса або пароль. Спробуйте ще раз. ");
+            loginPage.checkWrongMailMessage("Невірна електронна адреса або пароль. Спробуйте ще раз.");
+            checkAC("Title not expected", loginPage.getWrongMailMessageText(),"Невірна електронна адреса або пароль. Спробуйте ще раз.");
         }
 
         @Test
-        public void userLogIn_oneStep(){
+        public void userNOTLogIn_oneStep(){
             loginPage.loginUser(login, pass);
-            //loginPage.checkIsUserLoggedIn();
-            checkAC("Title is not present", loginPage.checkIsUserLoggedIn(),true);
+            checkAC("Title is not present", homePage.isAvatarPresent(),false);
 
 
         }

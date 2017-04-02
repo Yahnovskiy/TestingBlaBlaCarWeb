@@ -129,10 +129,11 @@ public class ActionsWithElements{
 
     }
 
-    public String getTextFromElement(String xpathLocator) {
-        String textFromElement = "";
+    public String getTextFromElement(WebElement element) {
+
+        String textFromElement = element.getText();
         try {
-            textFromElement = webDriverWait15.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathLocator))).getText();
+            textFromElement = webDriverWait15.until(ExpectedConditions.visibilityOf(element)).getText();
         } catch (Exception e) {
             logger.error("Can not work with element");
             Assert.fail("Can not work with element");

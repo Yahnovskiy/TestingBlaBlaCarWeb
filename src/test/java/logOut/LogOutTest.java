@@ -1,5 +1,7 @@
-package logIN;
+package logOut;
 
+import Pages.HomePage;
+import Pages.ParentPage;
 import libs.ConfigData;
 import libs.SpreadsheetData;
 import org.junit.Test;
@@ -13,14 +15,16 @@ import java.io.InputStream;
 import java.util.Collection;
 
 /**
- * Created by Bigbubble on 18-Mar-17.
+ * Created by Bigbubble on 02-Apr-17.
  */
 
-@RunWith(value = Parameterized.class)
-public class LogInTest extends ParentTest{
-    String login, pass;
 
-    public LogInTest(String browser, String login, String pass) {
+
+@RunWith(value = Parameterized.class)
+public class LogOutTest extends ParentTest {
+
+    String login, pass;
+    public LogOutTest(String browser, String login, String pass) {
         super(browser);
         this.login = login;
         this.pass = pass;
@@ -33,19 +37,13 @@ public class LogInTest extends ParentTest{
     }
 
     @Test
-    public void invalidLogIn(){
-        loginPage.openLoginPage();
-        loginPage.clickToShownPopupLoginWindow();
-        loginPage.enterLogin(login);
-        loginPage.enterPass(pass);
-        loginPage.clickButtonLogin();
-        checkAC("User is logged in", homePage.isAvatarPresent(),true);
-    }
+    public void isUserLogedOut(){
 
-    @Test
-    public void userLogIn_oneStep(){
         loginPage.loginUser(login, pass);
         checkAC("User is logged in", homePage.isAvatarPresent(),true);
+        homePage.clickOnAvatar();
+        homePage.clickLogOutButton();
+        checkAC("User is logged in", homePage.isAvatarPresent(),false);
     }
 
 }

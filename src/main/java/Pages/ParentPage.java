@@ -7,6 +7,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static org.hamcrest.Matchers.is;
 
@@ -53,7 +54,10 @@ public class ParentPage {
 
     public String getText() {
         return driver.findElement(By.xpath(".//*[@class='u-overflowHidden']")).getText();
+
     }
+
+
 
 //    public void checkTitleWrongMailMessage(String expectedText) {
 //        actionsWithElements.checkTextInElement(".//*[@class='u-overflowHidden']",expectedText);

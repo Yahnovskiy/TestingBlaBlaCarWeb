@@ -1,6 +1,6 @@
 package parentTest;
 
-//import Pages.HomePage;
+import Pages.HomePage;
 import Pages.LoginPage;
 //import Pages.WorkersPage;
 import libs.Utils;
@@ -39,7 +39,7 @@ public class ParentTest {
     private String browser;
 
     protected LoginPage loginPage;
-    //protected HomePage homePage;
+    protected HomePage homePage;
   // protected WorkersPage workersPage;
 
     public ParentTest(String browser) {
@@ -104,7 +104,7 @@ public class ParentTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         loginPage = new LoginPage(driver);
-       // homePage = new HomePage(driver);
+        homePage = new HomePage(driver);
        // workersPage = new WorkersPage(driver);
 
 
