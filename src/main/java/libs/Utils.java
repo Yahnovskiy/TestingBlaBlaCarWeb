@@ -38,7 +38,7 @@ public class Utils {
     public static int Day;
     public static int Month;
     public static int Year;
-String aString;
+
 
     public static void main(String args[]){
         Calendar calendar = Calendar.getInstance();
