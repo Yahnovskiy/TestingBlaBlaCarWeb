@@ -47,4 +47,5 @@ public class SearchPage extends ParentPage {
     public void clickOnSearchButton() {
         actionsWithElements.clickOnElement(SearchButton);
     }
+
 }

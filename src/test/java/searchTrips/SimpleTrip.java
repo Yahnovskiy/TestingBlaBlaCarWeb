@@ -1,4 +1,4 @@
-package datePickerTest;
+package searchTrips;
 
 import libs.ConfigData;
 import libs.SpreadsheetData;
@@ -18,7 +18,9 @@ import java.util.Collection;
  */
 
 @RunWith(value = Parameterized.class)
-public class VerifyCurrentDateOnCalendar extends ParentTest {
+public class SimpleTrip extends ParentTest {
+
+
 
     final private String Date_Today = String.valueOf(8);     //как передать дату!!!!!!!!!!!
                                                                         //если ввожу просто число все отрабатыват
@@ -27,7 +29,7 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
 
 
 
-    public VerifyCurrentDateOnCalendar(String browser, String login, String pass) {
+    public SimpleTrip(String browser, String login, String pass) {
         super(browser);
         this.login = login;
         this.pass = pass;
@@ -49,7 +51,7 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
 
 
     @Test
-    public void verifyCurrentCalendarDate() {
+    public void checkSearch() {
         loginPage.loginUser(login, pass);
         checkAC("User is logged in", homePage.isAvatarPresent(), true);
         homePage.clickGoSearchScreenButton();
@@ -58,7 +60,7 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
         searchPage.enterFromDestination("Kiev");
         searchPage.enterToDestination("Lviv");
         searchPage.clickOnSearchButton();
-        searchPage.checkTitle("Поїздки Kyiv, місто Київ – Lviv");
+        searchPage.checkTitle("Поїздки Kiev – Lviv");
 
     }
 

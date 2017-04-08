@@ -17,6 +17,7 @@ public class ParentPage {
     Logger logger;
     ActionsWithElements actionsWithElements;
 
+
     public ParentPage(WebDriver driver){
         this.driver = driver;
         logger = Logger.getLogger(getClass());

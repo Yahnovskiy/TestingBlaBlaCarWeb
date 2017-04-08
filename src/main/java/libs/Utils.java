@@ -36,22 +36,22 @@ public class Utils {
 
 
     public static int Day;
-    int Month;
-    int Year;
-
+    public static int Month;
+    public static int Year;
+String aString;
 
     public static void main(String args[]){
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
 
         Day = calendar.get(Calendar.DAY_OF_MONTH);
+        Month = calendar.get(Calendar.MONTH);
+        Year = calendar.get(Calendar.YEAR);
+        System.out.println(Year);
 
-        System.out.print("Daye " + Day
-        );
-//        Month = calendar.get(Calendar.MONTH);
-//        Year = calendar.get(Calendar.YEAR);
+        String aString = Integer.toString(Day);
 
-
+        System.out.println(aString);
 
     }
 
