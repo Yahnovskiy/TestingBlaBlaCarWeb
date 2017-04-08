@@ -41,7 +41,7 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
         InputStream spreadsheet = new FileInputStream(ConfigData.getCfgValue("DATA_FILE_PATH") + "testDataSuit.xls");
         return new SpreadsheetData(spreadsheet, "ValidLogOn").getData();      //2й параметр - указываем название листа в екселе
     }
-    //хочу использовать второй файл для ввода в поля From and To, но не знаю как
+    //хочу использовать второй Excel файл для ввода в поля From and To, но не знаю как
 //    public static Collection testData2() throws IOException {
 //        InputStream spreadsheet = new FileInputStream(ConfigData.getCfgValue("DATA_FILE_PATH") + "testData.xls");
 //        return new SpreadsheetData(spreadsheet, "List1").getData();
