@@ -3,6 +3,7 @@ package parentTest;
 import Pages.HomePage;
 import Pages.LoginPage;
 //import Pages.WorkersPage;
+import Pages.SearchPage;
 import libs.Utils;
 import org.apache.log4j.Logger;
 import org.junit.After;
@@ -40,7 +41,7 @@ public class ParentTest {
 
     protected LoginPage loginPage;
     protected HomePage homePage;
-  // protected WorkersPage workersPage;
+  protected SearchPage searchPage;
 
     public ParentTest(String browser) {
         this.browser = browser;
@@ -105,7 +106,7 @@ public class ParentTest {
 
         loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);
-       // workersPage = new WorkersPage(driver);
+        searchPage = new SearchPage(driver);
 
 
 

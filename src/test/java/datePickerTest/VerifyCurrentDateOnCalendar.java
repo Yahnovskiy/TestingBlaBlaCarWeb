@@ -53,12 +53,12 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
         loginPage.loginUser(login, pass);
         checkAC("User is logged in", homePage.isAvatarPresent(), true);
         homePage.clickGoSearchScreenButton();
-        homePage.clickonCalendarPicker();
-        homePage.chooseTodayDate(Date_Today);
-        homePage.enterFromDestination("Kiev");
-        homePage.enterToDestination("Lviv");
-        homePage.clickOnSearchButton();
-       homePage.checkTitle("Поїздки Kyiv, місто Київ – Lviv");
+        searchPage.clickonCalendarPicker();
+        searchPage.chooseTodayDate(Date_Today);
+        searchPage.enterFromDestination("Kiev");
+        searchPage.enterToDestination("Lviv");
+        searchPage.clickOnSearchButton();
+        searchPage.checkTitle("Поїздки Kyiv, місто Київ – Lviv");
 
     }
 

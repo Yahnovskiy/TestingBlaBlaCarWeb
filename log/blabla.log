@@ -875,3 +875,29 @@
 2017-08-04 21:57:42   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
 2017-08-04 21:57:44  ERROR [Pages.LoginPage] : Can not open https://www.blablacar.com.ua/
 2017-08-04 21:57:44   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 22:05:49   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 22:05:54   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 22:05:57   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 22:05:58   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:05:58   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 22:05:59   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 22:05:59   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:01   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:02   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:02   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:02   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 22:06:03   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 22:06:03   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:06   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 22:06:12   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 22:06:14   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 22:06:15   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:15   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 22:06:15   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 22:06:16   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:19   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:19   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:19   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 22:06:20   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 22:06:20   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 22:06:23   INFO [libs.ActionsWithElements] : Element was clicked
