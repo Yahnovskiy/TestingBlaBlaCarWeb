@@ -32,4 +32,5 @@ public class HomePage extends ParentPage {
 
 
     public void clickLogOutButton() {actionsWithElements.clickOnElement(LogOutButton);}
+
 }
