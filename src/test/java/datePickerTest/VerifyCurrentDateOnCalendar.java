@@ -22,7 +22,7 @@ import java.util.Collection;
 @RunWith(value = Parameterized.class)
 public class VerifyCurrentDateOnCalendar extends ParentTest {
 
-    //final private String Date_Today = Utils.main(Day);     //как передать дату!!!!!!!!!!!
+    final private String Date_Today = String.valueOf(8);     //как передать дату!!!!!!!!!!!
 
 
     String login, pass;
@@ -45,9 +45,9 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
     public void verifyCurrentCalendarDate() {
         loginPage.loginUser(login, pass);
         checkAC("User is logged in", homePage.isAvatarPresent(), true);
-        homePage.clickSearchButton();
+        homePage.clickGoSearchScreenButton();
         homePage.clickonCalendarPicker();
-      //  homePage.chooseTodayDate(Date_Today);
+        homePage.chooseTodayDate(Date_Today);
 //        homePage.enterFromDestination();
 //        homePage.enterToDestination();
 //        homePage.clickOnSearchButton();

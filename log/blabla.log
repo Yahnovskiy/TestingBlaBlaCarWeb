@@ -713,3 +713,14 @@
 2017-08-04 18:29:10   INFO [libs.ActionsWithElements] : Element was clicked
 2017-08-04 18:29:12   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
 2017-08-04 18:29:14   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 20:19:52   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 20:20:03   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 20:20:06   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 20:20:06   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 20:20:07   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 20:20:07   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 20:20:07   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 20:20:09   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 20:20:11   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 20:20:11   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 20:20:13   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started

@@ -44,12 +44,12 @@ public class HomePage extends ParentPage {
         actionsWithElements.clickOnElement(CalendarPickerbutton);
     }
 
-    public void clickSearchButton() {
+    public void clickGoSearchScreenButton() {
         actionsWithElements.clickOnElement(SearchButton);
     }
 
     public void chooseTodayDate(String date_Today) {
-        actionsWithElements.clickOnElementXpathDate(".//*[text()='"+date_Today+"']");
+        actionsWithElements.clickOnElementXpathDate(".//*[@class='ui-datepicker-calendar']//a[. ='"+date_Today+"']");
     }
 
 
