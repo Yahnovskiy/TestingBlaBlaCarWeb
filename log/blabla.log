@@ -649,3 +649,67 @@
 2017-02-04 20:55:53   INFO [libs.ActionsWithElements] : Element was clicked
 2017-02-04 20:55:53   INFO [libs.Utils] : ScreenShot: D:\All_Projects\QA_light\TestingBlaBlaCarWeb\target\screenshot\logOut\LogOutTest\isUserLogedOut[1]-fireFox.jpg
 2017-02-04 20:55:53  ERROR [logOut.LogOutTest] : AC failed: User is logged in
+2017-08-04 17:22:05   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 17:23:41   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 17:24:15   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 17:24:22   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 17:24:23   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 17:24:25   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 17:24:26   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 17:24:26   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 17:24:49  ERROR [libs.ActionsWithElements] : Can not work with button
+2017-08-04 17:26:02   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 17:26:10   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 17:26:30   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 17:26:42   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 17:26:48   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 17:26:50   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 17:26:51   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 17:26:51   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 17:26:51   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 17:27:15  ERROR [libs.ActionsWithElements] : Can not work with button
+2017-08-04 18:21:57   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 18:22:03   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 18:22:23   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 18:22:27   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 18:22:30   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 18:22:30   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:22:30   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 18:22:31   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 18:22:31   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:22:33   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:22:53  ERROR [libs.ActionsWithElements] : Can not work with button
+2017-08-04 18:25:37   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 18:25:40   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 18:26:00   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 18:26:04   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 18:26:07   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 18:26:09   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:26:09   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 18:26:09   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 18:26:09   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:26:13   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:26:32  ERROR [libs.ActionsWithElements] : Can not work with button
+2017-08-04 18:28:20   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 18:28:25   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 18:28:27   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 18:28:28   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:28:28   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 18:28:29   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 18:28:29   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:28:31   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:28:32   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:28:34   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 18:28:38   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 18:28:57   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 18:29:03   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 18:29:06   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 18:29:06   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:29:06   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 18:29:07   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 18:29:07   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:29:09   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:29:10   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:29:10   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 18:29:12   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 18:29:14   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started

@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 
 public class Utils {
@@ -31,5 +33,27 @@ public class Utils {
             e.printStackTrace();
         }
     }
+
+
+    public static int Day;
+    int Month;
+    int Year;
+
+
+    public static void main(String args[]){
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
+
+        Day = calendar.get(Calendar.DAY_OF_MONTH);
+
+        System.out.print("Daye " + Day
+        );
+//        Month = calendar.get(Calendar.MONTH);
+//        Year = calendar.get(Calendar.YEAR);
+
+
+
+    }
+
 
 }

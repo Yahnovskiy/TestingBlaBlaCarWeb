@@ -5,6 +5,11 @@ Login.PasswordField.input=name(_password)
 Login.Login.button=name(_submit)
 Login.ErrorMessage.message=xpath(".//*[@class='u-overflowHidden']")
 
+#SearchWithCurrentDate
+Calendar.Picker.button=xpath(".//*[@id='search_to_date']")
+Search.button=xpath(//a[@href='/poshuk-poyizdki'])
+
+
 
 
 

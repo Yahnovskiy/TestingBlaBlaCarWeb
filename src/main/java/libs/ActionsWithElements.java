@@ -7,6 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.Date;
+
 import static org.hamcrest.Matchers.is;   //manually written
 
 
@@ -88,18 +91,17 @@ public class ActionsWithElements{
         }
     }
 
-//    public void clickOnElement(String xpathLocator) {
-//
-//            try {
-//
-//                driver.findElement(By.xpath(xpathLocator)).click();
-//                logger.info("Element was clicked");
-//
-//            } catch (Exception e) {
-//                logger.error("Can not work with button");
-//                Assert.fail("Can not work with button");
-//            }
-//        }
+    public void clickOnElementXpathDate(String xpathLocator) {
+        try {
+
+            driver.findElement(By.xpath(xpathLocator)).click();
+            logger.info("Element was clicked");
+
+        } catch (Exception e) {
+            logger.error("Can not work with button");
+            Assert.fail("Can not work with button");
+        }
+    }
 
 
 

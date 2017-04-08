@@ -15,6 +15,12 @@ public class HomePage extends ParentPage {
     @FindBy(xpath = "//a[@href='/viyti']")
     WebElement LogOutButton;
 
+    @FindBy(xpath = "//a[@href='/poshuk-poyizdki']")
+    WebElement SearchButton;
+
+    @FindBy(xpath = ".//*[@class='search-date date-picker hasDatepicker']")
+    WebElement CalendarPickerbutton;
+
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -32,5 +38,19 @@ public class HomePage extends ParentPage {
 
 
     public void clickLogOutButton() {actionsWithElements.clickOnElement(LogOutButton);}
+
+
+    public void clickonCalendarPicker() {
+        actionsWithElements.clickOnElement(CalendarPickerbutton);
+    }
+
+    public void clickSearchButton() {
+        actionsWithElements.clickOnElement(SearchButton);
+    }
+
+    public void chooseTodayDate(String date_Today) {
+        actionsWithElements.clickOnElementXpathDate(".//*[text()='"+date_Today+"']");
+    }
+
 
 }
