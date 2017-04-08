@@ -26,7 +26,7 @@ import static libs.Utils.Day;
 @RunWith(value = Parameterized.class)
 public class VerifyCurrentDateOnCalendar extends ParentTest {
 
-    final private String Date_Today = Utils.main(Day);     //как передать дату!!!!!!!!!!!
+    //final private String Date_Today = Utils.main(Day);     //как передать дату!!!!!!!!!!!
 
 
     String login, pass;
