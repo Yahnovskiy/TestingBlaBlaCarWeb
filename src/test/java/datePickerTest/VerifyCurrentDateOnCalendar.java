@@ -22,7 +22,7 @@ import java.util.Collection;
 public class VerifyCurrentDateOnCalendar extends ParentTest {
 
     final private String Date_Today = String.valueOf(Utils.Day);     //как передать дату!!!!!!!!!!!
-
+                                                                        //если ввожу просто число все отрабатыват
 
     String login, pass;
 
@@ -43,7 +43,7 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
     }
 //    public static Collection testData2() throws IOException {
 //        InputStream spreadsheet = new FileInputStream(ConfigData.getCfgValue("DATA_FILE_PATH") + "testData.xls");
-//        return new SpreadsheetData(spreadsheet, "List1").getData();      //2й параметр - указываем название листа в екселе
+//        return new SpreadsheetData(spreadsheet, "List1").getData();      //хочу использовать второй файл для ввода в поля From and To, но не знаю как
 //    }
 
 
