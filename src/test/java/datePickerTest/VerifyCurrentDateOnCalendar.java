@@ -3,7 +3,6 @@ package datePickerTest;
 import libs.ConfigData;
 import libs.SpreadsheetData;
 import libs.Utils;
-import org.apache.poi.ss.formula.functions.Today;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -22,7 +21,7 @@ import java.util.Collection;
 @RunWith(value = Parameterized.class)
 public class VerifyCurrentDateOnCalendar extends ParentTest {
 
-    final private String Date_Today = String.valueOf(8);     //как передать дату!!!!!!!!!!!
+    final private String Date_Today = String.valueOf(Utils.Day);     //как передать дату!!!!!!!!!!!
 
 
     String login, pass;
@@ -33,6 +32,8 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
         super(browser);
         this.login = login;
         this.pass = pass;
+//        this.from = from;
+//        this.toto = toto;
     }
 
     @Parameterized.Parameters
@@ -40,6 +41,12 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
         InputStream spreadsheet = new FileInputStream(ConfigData.getCfgValue("DATA_FILE_PATH") + "testDataSuit.xls");
         return new SpreadsheetData(spreadsheet, "ValidLogOn").getData();      //2й параметр - указываем название листа в екселе
     }
+//    public static Collection testData2() throws IOException {
+//        InputStream spreadsheet = new FileInputStream(ConfigData.getCfgValue("DATA_FILE_PATH") + "testData.xls");
+//        return new SpreadsheetData(spreadsheet, "List1").getData();      //2й параметр - указываем название листа в екселе
+//    }
+
+
 
     @Test
     public void verifyCurrentCalendarDate() {
@@ -47,8 +54,8 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
         checkAC("User is logged in", homePage.isAvatarPresent(), true);
         homePage.clickGoSearchScreenButton();
         homePage.clickonCalendarPicker();
-        homePage.chooseTodayDate(Date_Today);
-//        homePage.enterFromDestination();
+       // homePage.chooseTodayDate(Date_Today);
+        homePage.enterFromDestination("Kiev");
 //        homePage.enterToDestination();
 //        homePage.clickOnSearchButton();
 //        homePage.checkTitle("Поїздки Kyiv, місто Київ – Lviv");

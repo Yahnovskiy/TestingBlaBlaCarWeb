@@ -1,5 +1,6 @@
 package Pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,6 +21,9 @@ public class HomePage extends ParentPage {
 
     @FindBy(xpath = ".//*[@class='search-date date-picker hasDatepicker']")
     WebElement CalendarPickerbutton;
+
+    @FindBy(xpath = ".//*[@id='search_from_name']")
+    WebElement search_from_field;
 
 
     public HomePage(WebDriver driver) {
@@ -53,4 +57,8 @@ public class HomePage extends ParentPage {
     }
 
 
+
+        public void enterFromDestination(String from_destination) {
+            actionsWithElements.enterText(search_from_field, from_destination);
+        }
 }
