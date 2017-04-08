@@ -54,7 +54,7 @@ public class VerifyCurrentDateOnCalendar extends ParentTest {
         checkAC("User is logged in", homePage.isAvatarPresent(), true);
         homePage.clickGoSearchScreenButton();
         homePage.clickonCalendarPicker();
-       // homePage.chooseTodayDate(Date_Today);
+        homePage.chooseTodayDate(Date_Today);
         homePage.enterFromDestination("Kiev");
 //        homePage.enterToDestination();
 //        homePage.clickOnSearchButton();
