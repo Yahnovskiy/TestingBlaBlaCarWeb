@@ -10,14 +10,14 @@ import org.openqa.selenium.support.FindBy;
  */
 public class HomePage extends ParentPage {
 
-    @FindBy (xpath = ".//span[@class = 'Header-navigationAvatar']")
+    @FindBy(xpath = ".//span[@class = 'Header-navigationAvatar']")
     WebElement LoggedInnavigationAvatar;
 
     @FindBy(xpath = "//a[@href='/viyti']")
     WebElement LogOutButton;
 
     @FindBy(xpath = "//a[@href='/poshuk-poyizdki']")
-    WebElement SearchButton;
+    WebElement SearchButtonScreen;
 
     @FindBy(xpath = ".//*[@class='search-date date-picker hasDatepicker']")
     WebElement CalendarPickerbutton;
@@ -25,23 +25,30 @@ public class HomePage extends ParentPage {
     @FindBy(xpath = ".//*[@id='search_from_name']")
     WebElement search_from_field;
 
+    @FindBy(xpath = ".//*[@id='search_to_name']")
+    WebElement search_to_field;
+
+    @FindBy(xpath = ".//*[@id='search-form']/input")
+    WebElement SearchButton;
+
 
     public HomePage(WebDriver driver) {
         super(driver);
     }
 
 
-
-
-
     public boolean isAvatarPresent() {
         return actionsWithElements.isElementPresent(LoggedInnavigationAvatar);
     }
 
-    public void clickOnAvatar() {actionsWithElements.clickOnElement(LoggedInnavigationAvatar);}
+    public void clickOnAvatar() {
+        actionsWithElements.clickOnElement(LoggedInnavigationAvatar);
+    }
 
 
-    public void clickLogOutButton() {actionsWithElements.clickOnElement(LogOutButton);}
+    public void clickLogOutButton() {
+        actionsWithElements.clickOnElement(LogOutButton);
+    }
 
 
     public void clickonCalendarPicker() {
@@ -49,16 +56,25 @@ public class HomePage extends ParentPage {
     }
 
     public void clickGoSearchScreenButton() {
-        actionsWithElements.clickOnElement(SearchButton);
+        actionsWithElements.clickOnElement(SearchButtonScreen);
     }
 
     public void chooseTodayDate(String date_Today) {
-        actionsWithElements.clickOnElementXpathDate(".//*[@class='ui-datepicker-calendar']//a[. ='"+date_Today+"']");
+        actionsWithElements.clickOnElementXpathDate(".//*[@class='ui-datepicker-calendar']//a[. ='" + date_Today + "']");
     }
 
 
+    public void enterFromDestination(String from_destination) {
+        actionsWithElements.enterText(search_from_field, from_destination);
+    }
 
-        public void enterFromDestination(String from_destination) {
-            actionsWithElements.enterText(search_from_field, from_destination);
+    public void enterToDestination(String to_destination) {
+        {
+            actionsWithElements.enterText(search_to_field, to_destination);
         }
+    }
+
+    public void clickOnSearchButton() {
+        actionsWithElements.clickOnElement(SearchButton);
+    }
 }

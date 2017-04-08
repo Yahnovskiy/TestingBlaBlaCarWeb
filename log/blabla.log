@@ -771,3 +771,107 @@
 2017-08-04 21:09:59   INFO [libs.ActionsWithElements] : Element was clicked
 2017-08-04 21:10:10  ERROR [libs.ActionsWithElements] : Can not work with button
 2017-08-04 21:10:12   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:20:13   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:20:19   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:20:22   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 21:20:23   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:20:23   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 21:20:23   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 21:20:24   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:20:26   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:20:27   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:20:27   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:20:28   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 21:20:28   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 21:20:28   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:20:33   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:20:39   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 21:22:42   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:22:46   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:22:49   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 21:22:49   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:22:50   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 21:22:50   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 21:22:50   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:22:52   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:22:53   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:22:53   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:22:53   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 21:22:54   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 21:22:54   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:22:56   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:23:00   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 21:24:41   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:24:46   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:24:48   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 21:24:49   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:24:49   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 21:24:50   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 21:24:50   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:24:52   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:24:53   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:24:54   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:24:54   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 21:24:54   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 21:24:55   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:24:58   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:25:04   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 21:30:51   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:31:01   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:31:04  ERROR [Pages.LoginPage] : Can not open https://www.blablacar.com.ua/
+2017-08-04 21:31:05   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:31:12   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 21:37:37   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:37:37   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:38:29   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:39:48   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:39:51   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 21:39:53   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:39:54   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 21:39:55   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 21:39:55   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:01   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:04   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:04   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:04   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 21:40:04   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 21:40:04   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:08   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:40:14   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  Chrome is started
+2017-08-04 21:40:17   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 21:40:17   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:18   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 21:40:18   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 21:40:19   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:22   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:22   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:23   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:23   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 21:40:23   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 21:40:23   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:40:49   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:40:49   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:42:43   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:42:43   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:51:27   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:51:39   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:51:42   INFO [Pages.LoginPage] : Page was opened with url https://www.blablacar.com.ua/
+2017-08-04 21:51:43   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:51:43   INFO [Pages.LoginPage] : bigbubble.e@bigmir.net was entered in input 
+2017-08-04 21:51:43   INFO [libs.ActionsWithElements] : bigbubble was inputed
+2017-08-04 21:51:43   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:51:46   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:51:47   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:51:53   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:51:53   INFO [libs.ActionsWithElements] : Kiev was inputed
+2017-08-04 21:51:53   INFO [libs.ActionsWithElements] : Lviv was inputed
+2017-08-04 21:51:53   INFO [libs.ActionsWithElements] : Element was clicked
+2017-08-04 21:51:55   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:53:51   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:53:58   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:53:59  ERROR [Pages.LoginPage] : Can not open https://www.blablacar.com.ua/
+2017-08-04 21:53:59   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
+2017-08-04 21:57:36   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : FireFox will be started
+2017-08-04 21:57:42   INFO [datePickerTest.VerifyCurrentDateOnCalendar] :  FireFox is started
+2017-08-04 21:57:44  ERROR [Pages.LoginPage] : Can not open https://www.blablacar.com.ua/
+2017-08-04 21:57:44   INFO [datePickerTest.VerifyCurrentDateOnCalendar] : Chrome will be started
