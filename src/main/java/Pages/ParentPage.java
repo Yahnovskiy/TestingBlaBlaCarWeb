@@ -9,11 +9,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.hamcrest.Matchers.is;
 
 public class ParentPage {
     WebDriver driver;
+    WebDriverWait webDriverWait;
     Logger logger;
     ActionsWithElements actionsWithElements;
 
@@ -23,6 +25,7 @@ public class ParentPage {
         logger = Logger.getLogger(getClass());
         actionsWithElements = new ActionsWithElements(driver);
         PageFactory.initElements(driver,this);
+        webDriverWait = new WebDriverWait(driver, 20);
     }
 
     /**
@@ -41,6 +44,7 @@ public class ParentPage {
 
     public void checkTitle(String expectedTitle){
         try {
+            webDriverWait.until(ExpectedConditions.titleIs(expectedTitle));
             Assert.assertThat("Title not match", driver.getTitle(),
                     is(expectedTitle));
         } catch (Exception e){

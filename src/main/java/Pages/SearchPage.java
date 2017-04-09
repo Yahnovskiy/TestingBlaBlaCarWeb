@@ -1,5 +1,6 @@
 package Pages;
 
+import libs.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,8 +30,8 @@ public class SearchPage extends ParentPage {
         actionsWithElements.clickOnElement(CalendarPickerbutton);
     }
 
-    public void chooseTodayDate(String date_Today) {
-        actionsWithElements.clickOnElementXpathDate(".//*[@class='ui-datepicker-calendar']//a[. ='" + date_Today + "']");
+    public void chooseTodayDate() {
+        actionsWithElements.clickOnElementXpathDate(".//*[@class='ui-datepicker-calendar']//a[. ='"+Utils.getToCurrentDate()+"']");
     }
 
 
@@ -47,5 +48,12 @@ public class SearchPage extends ParentPage {
     public void clickOnSearchButton() {
         actionsWithElements.clickOnElement(SearchButton);
     }
+
+//    public String getDay() {
+//
+//        return Utils.getToCurrentDate();
+//
+//
+//    }
 
 }

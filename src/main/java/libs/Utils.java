@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 
 public class Utils {
@@ -35,25 +36,16 @@ public class Utils {
     }
 
 
-    public static int Day;
-    public static int Month;
-    public static int Year;
 
-
-    public static void main(String args[]){
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat formattedDate = new SimpleDateFormat("dd.MM.yyyy");
-
-        Day = calendar.get(Calendar.DAY_OF_MONTH);
-        Month = calendar.get(Calendar.MONTH);
-        Year = calendar.get(Calendar.YEAR);
-        System.out.println(Year);
-
-        String aString = Integer.toString(Day);
-
-        System.out.println(aString);
-
+    public static Integer getToCurrentDate(){
+        Date calendar = new Date();
+        SimpleDateFormat formattedDate = new SimpleDateFormat("dd");
+        System.out.println("Formmated date" + Integer.parseInt(formattedDate.format(calendar)));
+        return Integer.parseInt(formattedDate.format(calendar)) ;
     }
 
 
 }
+
+
+

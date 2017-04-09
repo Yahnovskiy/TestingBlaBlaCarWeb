@@ -70,13 +70,13 @@ public class ParentTest {
 
         if ("fireFox".equals(browser)) {
             log.info("FireFox will be started");
-            File fileFF = new File(".././drivers/geckodriver.exe");
+            File fileFF = new File("./drivers/geckodriver.exe");
             System.setProperty("webdriver.gecko.driver", fileFF.getAbsolutePath());
             driver = new FirefoxDriver();
             log.info(" FireFox is started");
         } else if ("chrome".equals(browser)) {
             log.info("Chrome will be started");
-            File fileFF = new File(".././drivers/chromedriver.exe");
+            File fileFF = new File("./drivers/chromedriver.exe");
             System.setProperty("webdriver.chrome.driver", fileFF.getAbsolutePath());
             driver = new ChromeDriver();
             log.info(" Chrome is started");
@@ -102,7 +102,7 @@ public class ParentTest {
                 + "\\" + this.getClass().getSimpleName() + "\\" + this.testName.getMethodName() + "-" + browser + ".jpg";
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);

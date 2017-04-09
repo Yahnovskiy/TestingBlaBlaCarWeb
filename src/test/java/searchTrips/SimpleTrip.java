@@ -2,6 +2,7 @@ package searchTrips;
 
 import libs.ConfigData;
 import libs.SpreadsheetData;
+import libs.Utils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -22,7 +23,7 @@ public class SimpleTrip extends ParentTest {
 
 
 
-    final private String Date_Today = String.valueOf(8);     //как передать дату!!!!!!!!!!!
+    //final private String Date_Today = String.valueOf(8);     //как передать дату!!!!!!!!!!!
                                                                         //если ввожу просто число все отрабатыват
 
     String login, pass;
@@ -56,10 +57,11 @@ public class SimpleTrip extends ParentTest {
         checkAC("User is logged in", homePage.isAvatarPresent(), true);
         homePage.clickGoSearchScreenButton();
         searchPage.clickonCalendarPicker();
-        searchPage.chooseTodayDate(Date_Today);
+        searchPage.chooseTodayDate();
         searchPage.enterFromDestination("Kiev");
         searchPage.enterToDestination("Lviv");
         searchPage.clickOnSearchButton();
+
         searchPage.checkTitle("Поїздки Kiev – Lviv");
 
     }
